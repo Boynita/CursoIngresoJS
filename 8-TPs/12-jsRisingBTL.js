@@ -12,7 +12,22 @@ function ComenzarIngreso ()
  	//definicion de variables
  	var edadIngresada;
  	var sexoIngresado;
- 	var estadoCivilIngresado;
+	var estadoCivilIngresado;
+	var sueldo;
+	var legajo;
+	var nacionalidad;
+
+
+//A.	Edad, entre 18 y 90 años inclusive.
+
+	edadIngresada = prompt(" Ingrese edad. ");
+	while(isNaN(edadIngresada)||edadIngresada<18||edadIngresada>90){
+		edadIngresada = prompt("Invalido. ingrese una edad correcta");
+		edadIngresada = parseInt(edadIngresada);
+
+	}
+	edadIngresada = txtIdEdad.value;
+	
 
 
 
