@@ -12,6 +12,7 @@ function mostrar()
 	acumulador=0;
 	respuesta=true;
 
+
 	while(respuesta){
 
 
@@ -29,6 +30,7 @@ function mostrar()
 		respuesta = confirm("Desea continuar?");
 	}
 
+	
 
 	txtIdSuma.value=acumulador;
 	txtIdPromedio.value=acumulador/contador;
